@@ -2,11 +2,16 @@ class Turn {
   constructor(userGuess, card) {
     this.userGuess = userGuess;
     this.card = card;
-  }
+  };
 
   returnGuess() {
-    return this.userGuess
-  }
+    return this.userGuess;
+  };
+
+  returnCard() {
+    return this.card;
+  };
+  
 }
 
 
