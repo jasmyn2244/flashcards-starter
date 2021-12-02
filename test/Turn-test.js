@@ -15,4 +15,9 @@ describe('Turn', function() {
     expect(turn).to.be.an.instanceof(Turn);
   });
 
+  it('should store a user guess', function() {
+    const turn = new Turn('object');
+    expect(turn.userGuess).to.equal('object');
+  });
+
 })
