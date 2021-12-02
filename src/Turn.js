@@ -1,6 +1,7 @@
 class Turn {
-  constructor(userGuess) {
+  constructor(userGuess, card) {
     this.userGuess = userGuess;
+    this.card = card;
   }
 }
 
