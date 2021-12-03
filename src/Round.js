@@ -32,16 +32,15 @@ class Round {
  };
 
  calculatePercentCorrect() {
-   this.percentCorrect = ((this.numCorrectGuesses/this.turns) * 100)
+   this.percentCorrect = ((this.numCorrectGuesses/this.turns) * 100);
    return this.percentCorrect;
  };
 
  endRound() {
-   console.log(`**Round Over!** You answered ${this.percentCorrect}% of the questions correctly!`)
-   return `**Round Over!** You answered ${this.percentCorrect}% of the questions correctly!`
- }
-
-}
+   console.log(`**Round Over!** You answered ${this.percentCorrect}% of the questions correctly!`);
+   return `**Round Over!** You answered ${this.percentCorrect}% of the questions correctly!`;
+ };
+};
 
 
 
